@@ -1,4 +1,4 @@
-#const bound = 11.
+#const bound = 14.
 time(1..bound).
 
 % hay 5 acciones posibles
@@ -28,8 +28,11 @@ at_goal(R,T) :- on(R,X,Y,T),goal(R,X,Y).
 % definido por goal(1,X,Y) (más abajo)
 :- robot(R),not at_goal(R,bound).
 
-:- on(R1,X1,Y1,T),on(R2,X2,Y2,T),
-   on(R2,X1,Y1,T-1),on(R1,X2,Y2,T-1),R1!=R2.
+:- on(R1,X1,Y1,T),on(R2,X1+1,Y1,T),
+   on(R2,X1,Y1,T-1),on(R1,X1+1,Y1,T-1).
+:- on(R1,X1,Y1,T),on(R2,X1,Y1+1,T),
+   on(R2,X1,Y1,T-1),on(R1,X1,Y1+1,T-1).
+
 
 :- on(R,X,Y,T),on(Rp,X,Y,T),R!=Rp.
 :- on(R,X,Y,T),obstacle(X,Y).
@@ -54,13 +57,15 @@ obstacle(1,1..6).
 obstacle(3,1..6).
 obstacle(5,1..6).
 
-robot(1..4).
-robot(5).
+robot(1..8).
 on(1,0,0,0).
 on(2,2,0,0).
 on(3,4,0,0).
 on(4,6,0,0).
-on(5,0,7,0).
+on(5,0,6,0).
+on(6,2,6,0).
+on(7,4,6,0).
+on(8,6,6,0).
 
 
 % goal(R,X,Y): el robot R debe llegar a X,Y
@@ -69,3 +74,6 @@ goal(2,2,7).
 goal(3,4,7).
 goal(4,6,7).
 goal(5,0,0).
+goal(6,2,0).
+goal(7,4,0).
+goal(8,6,0).
