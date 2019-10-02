@@ -1,4 +1,4 @@
-#Tarea 2 - Sliders
+# Tarea 2 - Sliders
 
 Dentro de la carpeta sliders encontrará los archivos necesarios para el desarrollo de su tarea. Recuerde que solo debe entregar el archivo solution.py, por lo tanto se recomienda no modificar los otros archivos.
 
