@@ -8,4 +8,4 @@ Se recomienda revisar continuamente este repositorio en caso de existir cambios.
 
 El enunciado de la tarea se encuentra en el archivo enunciado_tarea2_SEARCH.pdf 
 
-Fecha de entrega: Miercoles 16 de Octubre, 2019 a las 20:00 hrs
+**Fecha de entrega: Miercoles 16 de Octubre, 2019 a las 20:00 hrs**
