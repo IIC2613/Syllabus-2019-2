@@ -1,8 +1,8 @@
-'''Sokoban routines.
+'''Sliders routines.
 
     A) Class SlidersState
 
-    A specializion of the StateSpace Class that is tailored to the game of Sokoban.
+    A specializion of the StateSpace Class that is tailored to the game of Sliders.
 
 
     Code also contains a list of some sliders problems for the purpose of testing.
