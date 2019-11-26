@@ -1,6 +1,4 @@
-####################
 # Revision Tarea 2
-####################
 
 La metodología de evaluación consistió en la utilización de un set de 12 problemas de SLIDERS para evaluar tanto la admisibilidad de la heurística diseñada como la implementación de los algoritmos pedidos.
 
@@ -12,7 +10,9 @@ Se utilizaron los problemas del archivo problems para realizar la búsqueda util
 Para ámbos algoritmos, se utilizó un timebound de acuerdo al problema, tiempo suficientemente alto para encontrar una solución óptima.
 
 Los costos óptimos y los timebound son los siguientes:
+```python
 costs = [2, 7, 2, 4, 4, 3, 5, 7, 2, 4, 8, 7]
 time_bounds = [3, 60, 3, 3, 3, 3, 20, 60, 3, 3, 60, 60]
+```
 
 Para recorrección por favor solicitelo en el siguiente formulario:
