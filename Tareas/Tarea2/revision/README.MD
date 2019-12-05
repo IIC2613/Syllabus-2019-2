@@ -19,3 +19,5 @@ time_bounds = [3, 60, 3, 3, 3, 3, 20, 60, 3, 3, 60, 60]
 ```
 
 Para recorrección por favor solicitelo en el siguiente formulario:
+
+https://forms.gle/kvKwBSFb4rfpkzM38
